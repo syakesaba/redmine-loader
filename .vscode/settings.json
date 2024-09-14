@@ -1,0 +1,31 @@
+{
+   "terminal.integrated.env.linux": {
+       "PYTHONPATH": "${workspaceFolder}${pathSeparator}src"
+   },
+    "[python]": {
+        "editor.defaultFoldingRangeProvider": "ms-python.black-formatter",
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "linting.pylintEnabled": false,
+        "linting.flake8Enabled": true,
+        "linting.lintOnSave": true,
+    },
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}${pathSeparator}src",
+    ],
+    "notebook.defaultFormatter": "ms-python.black-formatter",
+    "flake8.args": [
+        "--max-line-length=88",
+        "--ignore=E203,W503,W504"
+    ],
+    "python.testing.pytestArgs": [
+        "tests",
+        "--cov=src",
+        "--cov-report",
+        "xml"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "coverage-gutters.showLineCoverage": true,
+    "coverage-gutters.showRulerCoverage": true
+}

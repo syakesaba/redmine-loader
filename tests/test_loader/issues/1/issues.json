@@ -1,0 +1,20 @@
+{
+    "issues": [
+            {
+                "id":  1,
+                "subject": "War Game",
+                "description": "A strange game. The only winning move is not to play. How about a nice game of chess?",
+                "attachments": [
+                {
+                    "id": 1,
+                    "filename": "attachment.txt",
+                    "content_type": "text/plain",
+                    "content_url": "https://attachment.com/attachment.txt",
+                    "author": {
+                        "name": "John Badham"
+                    }
+                }
+            ]
+        }
+    ]
+}
