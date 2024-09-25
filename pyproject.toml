@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "redmine-loader"
-version = "0.0.5"
+version = "0.1.1"
 description = "Document Loader for bitnami Redmine. Crawl Redmine Issues using WebAPI and gather issue subject, description, comments, attachments. Attachments are parsed with unstructured.io ."
 authors = ["syakesaba <pakemon@syakesaba.com>"]
 license = "MIT"
